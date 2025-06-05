@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photobooth.App", "Photobooth.App/Photobooth.App.csproj", "{55F4E057-9608-4E44-AC42-04B1300F1891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photobooth.ViewModels", "Photobooth.ViewModels/Photobooth.ViewModels.csproj", "{3FDF5FCF-DC67-4340-8FB8-605D1F969782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photobooth.Models", "Photobooth.Models/Photobooth.Models.csproj", "{659D61C8-68D5-478E-8A1B-0E2DA4BFA829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photobooth.Services", "Photobooth.Services/Photobooth.Services.csproj", "{8AA7ABC4-7061-4F15-9AB0-3E1C302F7C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photobooth.Adapters", "Photobooth.Adapters/Photobooth.Adapters.csproj", "{FC47AF2D-119A-4D9B-A59E-A23A144C116D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photobooth.Core", "Photobooth.Core/Photobooth.Core.csproj", "{43726A6F-7A15-4F58-9DF8-4938AF619FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photobooth.Integration", "Photobooth.Integration/Photobooth.Integration.csproj", "{6C8DA102-30DC-4326-9E73-40C2AAED7DC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Photobooth.Resources", "Photobooth.Resources/Photobooth.Resources.csproj", "{FB09A51A-5609-4EDA-96DD-7B72E76F061C}"
+EndProject
+Global
+EndGlobal
