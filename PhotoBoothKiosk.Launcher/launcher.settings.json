@@ -1,0 +1,10 @@
+{
+  "AppExePath": "C:/PhotoBoothKiosk/PhotoBoothKiosk.App.exe",
+  "ProcessName": "PhotoBoothKiosk.App",
+  "CheckIntervalSeconds": 15,
+  "RestartDelaySeconds": 2,
+  "HeartbeatFile": "C:/ProgramData/PhotoBoothKiosk/heartbeat.txt",
+  "HeartbeatStaleSeconds": 120,
+  "KillExtraInstances": true,
+  "StartHidden": false
+}

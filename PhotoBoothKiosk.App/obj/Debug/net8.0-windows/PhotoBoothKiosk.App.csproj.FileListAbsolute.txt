@@ -1,0 +1,6 @@
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.App\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.App\obj\Debug\net8.0-windows\Themes\Generic.baml
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.App\obj\Debug\net8.0-windows\App.baml
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.App\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.App\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.App\obj\Debug\net8.0-windows\PhotoBoothKiosk.App_MarkupCompile.cache

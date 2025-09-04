@@ -1,0 +1,31 @@
+<UserControl x:Class="PhotoBoothKiosk.App.Views.ThankYouView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Grid>
+    <Border Style="{StaticResource Card}">
+      <StackPanel Spacing="14" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+        <!-- Tiêu đề cảm ơn -->
+        <TextBlock Style="{StaticResource H1}"
+                   Text="Cảm ơn bạn!" />
+
+        <!-- Thông điệp ngắn -->
+        <TextBlock Style="{StaticResource Body}"
+                   Text="Ảnh của bạn đã được xử lý trong DSLRBooth (in/gửi/QR)."
+                   TextAlignment="Center"/>
+
+        <TextBlock Style="{StaticResource Body}"
+                   Text="Hệ thống sẽ quay về màn hình chính trong giây lát."
+                   TextAlignment="Center"/>
+
+        <!-- Nút về ngay màn hình chính -->
+        <Button Style="{StaticResource KioskButton}"
+                Content="Về màn hình chính"
+                Command="{Binding BackToHomeCommand}"
+                Width="360"
+                HorizontalAlignment="Center"/>
+
+      </StackPanel>
+    </Border>
+  </Grid>
+</UserControl>

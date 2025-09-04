@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Core là thư viện logic, không chạy độc lập -->
+    <OutputType>Library</OutputType>
+    
+    <!-- Nếu cần dùng Windows API (ví dụ KeyboardHook) -->
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Cho phép WPF/WinForms interop (hook bàn phím, gửi phím ảo) -->
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>

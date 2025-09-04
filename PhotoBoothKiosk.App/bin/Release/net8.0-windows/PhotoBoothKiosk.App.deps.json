@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PhotoBoothKiosk.App/1.0.0": {
+        "dependencies": {
+          "PhotoBoothKiosk.Core": "1.0.0"
+        },
+        "runtime": {
+          "PhotoBoothKiosk.App.dll": {}
+        }
+      },
+      "PhotoBoothKiosk.Core/1.0.0": {
+        "runtime": {
+          "PhotoBoothKiosk.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PhotoBoothKiosk.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhotoBoothKiosk.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

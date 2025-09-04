@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tqvie\\Downloads\\PhotoBoothKiosk (1)\\PhotoBoothKiosk.App\\PhotoBoothKiosk.App.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tqvie\\Downloads\\PhotoBoothKiosk (1)\\PhotoBoothKiosk.App\\PhotoBoothKiosk.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tqvie\\Downloads\\PhotoBoothKiosk (1)\\PhotoBoothKiosk.App\\PhotoBoothKiosk.App.csproj",
+        "projectName": "PhotoBoothKiosk.App",
+        "projectPath": "C:\\Users\\tqvie\\Downloads\\PhotoBoothKiosk (1)\\PhotoBoothKiosk.App\\PhotoBoothKiosk.App.csproj",
+        "packagesPath": "C:\\Users\\tqvie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tqvie\\Downloads\\PhotoBoothKiosk (1)\\PhotoBoothKiosk.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tqvie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\tqvie\\Downloads\\PhotoBoothKiosk (1)\\PhotoBoothKiosk.Core\\PhotoBoothKiosk.Core.csproj": {
+                "projectPath": "C:\\Users\\tqvie\\Downloads\\PhotoBoothKiosk (1)\\PhotoBoothKiosk.Core\\PhotoBoothKiosk.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tqvie\\Downloads\\PhotoBoothKiosk (1)\\PhotoBoothKiosk.Core\\PhotoBoothKiosk.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tqvie\\Downloads\\PhotoBoothKiosk (1)\\PhotoBoothKiosk.Core\\PhotoBoothKiosk.Core.csproj",
+        "projectName": "PhotoBoothKiosk.Core",
+        "projectPath": "C:\\Users\\tqvie\\Downloads\\PhotoBoothKiosk (1)\\PhotoBoothKiosk.Core\\PhotoBoothKiosk.Core.csproj",
+        "packagesPath": "C:\\Users\\tqvie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tqvie\\Downloads\\PhotoBoothKiosk (1)\\PhotoBoothKiosk.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tqvie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

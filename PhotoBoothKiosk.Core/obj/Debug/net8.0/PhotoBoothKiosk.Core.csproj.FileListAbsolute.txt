@@ -1,0 +1,4 @@
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\obj\Debug\net8.0\PhotoBoothKiosk.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\obj\Debug\net8.0\PhotoBoothKiosk.Core.AssemblyInfoInputs.cache
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\obj\Debug\net8.0\PhotoBoothKiosk.Core.AssemblyInfo.cs
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\obj\Debug\net8.0\PhotoBoothKiosk.Core.csproj.CoreCompileInputs.cache

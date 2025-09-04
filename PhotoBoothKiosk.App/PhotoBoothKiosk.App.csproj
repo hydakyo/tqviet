@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Tùy chọn: đặt icon ứng dụng nếu có -->
+    <!-- <ApplicationIcon>Assets\icon.ico</ApplicationIcon> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PhotoBoothKiosk.Core\PhotoBoothKiosk.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Sao chép cấu hình ra thư mục build -->
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+
+    <!-- Nhúng toàn bộ tài nguyên (ảnh, âm thanh…) -->
+    <Resource Include="Assets\**\*.*" />
+  </ItemGroup>
+</Project>

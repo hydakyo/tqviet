@@ -1,0 +1,52 @@
+<UserControl x:Class="PhotoBoothKiosk.App.Views.PaymentView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Grid>
+    <Border Style="{StaticResource Card}">
+      <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="16">
+
+        <!-- Tiêu đề -->
+        <TextBlock Style="{StaticResource H1}" Text="Chọn số ảnh in" />
+
+        <!-- Chọn nhanh số lượng: 1 / 2 / 4 -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+          <Button Style="{StaticResource KioskButtonSecondary}" Content="1 tấm" Width="180" Click="SelectCount1_Click"/>
+          <Button Style="{StaticResource KioskButtonSecondary}" Content="2 tấm" Width="180" Click="SelectCount2_Click"/>
+          <Button Style="{StaticResource KioskButtonSecondary}" Content="4 tấm" Width="180" Click="SelectCount4_Click"/>
+        </StackPanel>
+
+        <!-- Ô nhập số lượng tuỳ chọn -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+          <TextBlock Style="{StaticResource Body}" Text="Số khác:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+          <TextBox x:Name="CustomCountBox"
+                   Width="120" FontSize="24"
+                   HorizontalContentAlignment="Center"
+                   VerticalContentAlignment="Center"
+                   TextAlignment="Center"
+                   MaxLength="3"
+                   PreviewTextInput="CustomCountBox_PreviewTextInput"
+                   TextChanged="CustomCountBox_TextChanged"/>
+          <Button Style="{StaticResource KioskButton}" Content="Áp dụng" Width="180" Click="ApplyCustom_Click"/>
+        </StackPanel>
+
+        <!-- Hiển thị giá -->
+        <TextBlock FontSize="28" FontWeight="SemiBold" HorizontalAlignment="Center"
+                   Text="{Binding PriceText}"/>
+
+        <Separator/>
+
+        <!-- Chọn phương thức thanh toán -->
+        <TextBlock Style="{StaticResource H2}" Text="Chọn phương thức thanh toán"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+          <Button Style="{StaticResource KioskButton}" Content="Demo" Width="180" Command="{Binding PayDemoCommand}"/>
+          <Button Style="{StaticResource KioskButton}" Content="Tiền mặt" Width="180" Command="{Binding PayCashCommand}"/>
+          <Button Style="{StaticResource KioskButton}" Content="QR" Width="180" Command="{Binding PayQrCommand}"/>
+          <Button Style="{StaticResource KioskButton}" Content="POS" Width="180" Command="{Binding PayPosCommand}"/>
+        </StackPanel>
+
+        <!-- Trạng thái -->
+        <TextBlock FontSize="22" HorizontalAlignment="Center" Text="{Binding Status}"/>
+      </StackPanel>
+    </Border>
+  </Grid>
+</UserControl>

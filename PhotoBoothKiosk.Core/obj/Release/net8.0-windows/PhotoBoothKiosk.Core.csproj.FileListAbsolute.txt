@@ -1,0 +1,11 @@
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\bin\Release\net8.0-windows\PhotoBoothKiosk.Core.deps.json
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\bin\Release\net8.0-windows\PhotoBoothKiosk.Core.dll
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\bin\Release\net8.0-windows\PhotoBoothKiosk.Core.pdb
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\obj\Release\net8.0-windows\PhotoBoothKiosk.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\obj\Release\net8.0-windows\PhotoBoothKiosk.Core.AssemblyInfoInputs.cache
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\obj\Release\net8.0-windows\PhotoBoothKiosk.Core.AssemblyInfo.cs
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\obj\Release\net8.0-windows\PhotoBoothKiosk.Core.csproj.CoreCompileInputs.cache
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\obj\Release\net8.0-windows\PhotoBoothKiosk.Core.dll
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\obj\Release\net8.0-windows\refint\PhotoBoothKiosk.Core.dll
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\obj\Release\net8.0-windows\PhotoBoothKiosk.Core.pdb
+C:\Users\tqvie\Downloads\PhotoBoothKiosk (1)\PhotoBoothKiosk.Core\obj\Release\net8.0-windows\ref\PhotoBoothKiosk.Core.dll
